@@ -1,0 +1,338 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+	background: #f4f4f4;
+	color: #333;
+	--highlight: #00a8cc;
+	--orange: #ffa500;
+}
+ 
+.container {
+	width: 60%;
+	margin: auto;
+	margin-top: 5rem;
+}
+
+#alert 
+{
+	font-size: 2rem;
+	color: #fff;
+	background: #ff5151;
+	padding: 1rem;
+	border-radius: 5px;
+	display: none;
+}
+
+
+#catSelectField {
+	height: 50px;
+	padding: 2px;
+	font-size: 1.4rem;
+}
+
+
+.deleteButton {
+	float: right;
+	margin-left: 0.5rem;
+	background: red;
+	color: #fff;
+	max-width: 6rem;
+	padding: 0.5rem;
+	border-radius: 4px;
+}
+
+
+.editButton {
+	float: right;
+	margin-left: 0.5rem;
+	background: orange;
+	max-width: 5rem;
+	padding: 0.5rem;
+	border-radius: 4px;
+}
+
+.checkButton {
+	float: right;
+	margin-left: 0.5rem;
+	margin-top: 0.5rem;
+	max-width: 4rem;
+	height: auto;
+	padding: 0.5rem;
+}
+
+.editDiv {
+	display: none;
+}
+
+
+.editForm input {
+	height: 2rem;
+	padding: 0.3rem;
+	border-radius: 4px;
+}
+
+
+.cancelEdit {
+	height: 2rem;
+	padding: 0.5rem;
+	background: red;
+	color: #fff;
+	font-size: 1rem;
+	border-radius: 3px;
+}
+
+
+.editForm .editInput {
+	height: 2rem;
+	padding: 0.3rem;
+	background: #00a8cc;
+	color: #fff;
+}
+
+
+#clearBtn 
+{
+	font-size: 1.4rem;
+	border :1px solid var(--highlight);
+	background-color: orange;
+	display: none;
+	margin-top: 0.5rem;
+	padding: 1rem;
+	transition: background 0.3 ease, color 0.3 ease;
+	border-radius: 5px;
+}
+
+#clearBtn:hover
+{
+	cursor: pointer;
+	background: red;
+	color: #fff;
+}
+
+
+/*Make a todoList item fall stylishly when removed from the list*/
+.todo-list-item-fall {
+	transform: translateY(12rem) rotateZ(10deg);
+	opacity: 0;
+}
+
+#alert p 
+{
+	color: #f4f4f4;
+	background-color: #ff5151;
+}
+
+#input {
+	width:100%;
+	font-size: 1.4rem;
+	padding: 0.4rem;
+	border: none;
+	border-bottom: 1px solid var(--highlight);
+	margin-top: 1rem;
+	transition: padding 0.3s ease;
+}
+
+
+#input:focus {
+	outline:none;
+	padding: 0.8rem;
+}
+
+#ul {
+	margin-top: 1rem;
+	list-style: none;	
+}
+
+
+.list-item {
+	font-size: 2rem;
+	font-style: italic;
+	border: 3px dotted var(--highlight);
+	padding: 1rem;
+	transition: opacity 0.3s ease;
+}
+
+.list-item:hover
+{
+	opacity: .7;
+}
+
+#logo {
+	font-size: 5rem;
+	text-align: center;
+}
+
+
+
+#submit {
+	background: var(--highlight);
+	color: #f4f4f4;
+	font-size: 1.4rem;
+	padding: 1rem;
+	border: none;
+	margin-top: 0.5rem;
+	border-radius: 4px;
+	transition: opacity 0.3s ease;
+}
+
+
+#submit:focus
+{
+	outline: none;
+}
+
+#submit:hover {
+	opacity: .7;
+	cursor: pointer;
+}
+
+#categoryList select {
+	width:100%;
+}
+
+
+
+
+
+/*-----------------START CAT STYLES------------------------*/
+
+#toggleCatDiv {
+	background: var(--highlight);
+	color: #f4f4f4;
+	font-size: 1.0rem;
+	padding: 0.5rem;
+	border: none;
+	margin-top: 0.5rem;
+	border-radius: 3px;
+	transition: opacity 0.3s ease;
+}
+
+
+#submitCat {
+	background: var(--highlight);
+	color: #f4f4f4;
+	font-size: 1.0rem;
+	padding: 0.5rem;
+	border: none;
+	margin-top: 0.5rem;
+	border-radius: 3px;
+	transition: opacity 0.3s ease;
+}
+
+
+#catInputDiv {
+	display: none;
+}
+
+
+#catInput {
+	width:100%;
+	font-size: 1.4rem;
+	padding: 0.4rem;
+	/*border: none;
+	border-bottom: 1px solid var(--highlight);*/
+	margin-top: 1rem;
+	transition: padding 0.3s ease;
+	border-radius: 4px;
+}
+
+
+#mngCatDiv {
+	display: none;
+}
+
+
+#toggleManageCatDiv {
+	background: var(--orange);
+	color: #f4f4f4;
+	font-size: 1.0rem;
+	padding: 0.5rem;
+	border: none;
+	margin-top: 0.5rem;
+	border-radius: 3px;
+	transition: opacity 0.3s ease;
+}
+
+
+#mngCatUl {
+	margin-top: 1rem;
+	list-style: none;
+}
+
+.cat-list-item {
+	font-size: 1rem;
+	border: 1px dotted var(--highlight);
+	padding: 1rem;
+	transition: opacity 0.3s ease;
+}
+
+
+.deleteCatButton {
+	float: right;
+	margin-left: 0.5rem;
+	background: red;
+	color: #fff;
+	max-width: 6rem;
+	padding: 0.5rem;
+	border-radius: 3px;
+}
+
+
+.editCatButton {
+	float: right;
+	margin-left: 0.5rem;
+	background: orange;
+	max-width: 5rem;
+	padding: 0.5rem;
+	border-radius: 3px;
+}
+
+
+.editCatDiv {
+	display: none;
+}
+
+
+.editCatForm input {
+	height: 2rem;
+	padding: 0.3rem;
+	border-radius: 4px;
+}
+
+
+.cancelCatEdit {
+	height: 2rem;
+	padding: 0.5rem;
+	background: red;
+	color: #fff;
+	font-size: 1rem;
+	border-radius: 3px;
+}
+
+
+.editCatForm .editCatInput {
+	height: 2rem;
+	padding: 0.3rem;
+	background: #00a8cc;
+	color: #fff;
+}
+/*-----------------END CAT STYLES------------------------*/
+
+
+
+
+/*-----------Drag n drop styles------------*/
+.draggable {
+	cursor: move;
+}
+
+.draggable .dragging {
+	opacity: 5;
+}
+
+
+
+
+/*-----------------------------------------*/
