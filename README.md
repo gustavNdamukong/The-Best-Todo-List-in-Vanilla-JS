@@ -9,13 +9,13 @@ Todo list in vanilla JS and CSS with categories, data persisted in localStorage 
 ![Create todo items under categories](https://github.com/gustavNdamukong/The-Best-Todo-List-in-Vanilla-JS/blob/main/todo-listAndCats.png?raw=true)
 
 
-# Edit todo items
+# Edit todo items and categories
 ![Edit items](https://github.com/gustavNdamukong/The-Best-Todo-List-in-Vanilla-JS/blob/main/todo-editInAction.png?raw=true)
 
 
-# Delete todo items
+# Delete todo items, or delete categories (incl all todos associated with them)
 ![Delete items](https://github.com/gustavNdamukong/The-Best-Todo-List-in-Vanilla-JS/blob/main/todo-deleteItem.png?raw=true)
 
 
-# Drag and drop todo items up or down to sort the order
+# Sort list order using drag and drop
 ![Drag and drop to sort the order](https://github.com/gustavNdamukong/The-Best-Todo-List-in-Vanilla-JS/blob/main/todo-dragnDrop.png?raw=true)
