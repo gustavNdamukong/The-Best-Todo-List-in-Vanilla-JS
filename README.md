@@ -2,7 +2,7 @@
 Todo list in vanilla JS and CSS with categories, data persisted in localStorage with drag and drop feature
 
 Create categories
-![Creating a category](https://github.com/[gustavNdamukong]/[The-Best-Todo-List-in-Vanilla-JS]/blob/main/todo-createCat.png?raw=true)
+![Creating a category](https://github.com/[gustavNdamukong]/The-Best-Todo-List-in-Vanilla-JS/blob/main/todo-createCat.png?raw=true)
 ![Creating a category](https://github.com/[gustavNdamukong]/[The-Best-Todo-List-in-Vanilla-JS]/blob/main/todo-categories.png?raw=true)
 
 Create todo items under categories
